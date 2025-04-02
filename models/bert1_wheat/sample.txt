@@ -1,0 +1,16 @@
+Previous values -  100.00, 95.50, 99.50, 100.00, 103.50, 107.25, 103.50, 
+Actual value - 103.50
+
+ News:
+a record - breaking wheat harvest this season has led to an oversupply
+in major agricultural markets, causing a substantial drop in prices.
+farmers are struggling to store surplus produce while exporters are
+seeking new trade agreements to offload excess wheat. market analysts
+warn that sustained low prices could impact farmers ' profitability,
+leading to potential long - term changes in wheat cultivation patterns. 
+with storage facilities reaching maximum capacity, concerns are growing 
+over potential wastage if prices remain depressed. governments are
+considering intervention to purchase excess stock and stabilize prices. 
+
+Concatenation model prediction - 104.07, diff - 0.55%
+LSTM model prediction - 106.08, diff - 2.5%

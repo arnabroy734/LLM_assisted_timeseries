@@ -1,2 +1,5 @@
 exclusion
 *.pkl
+*.ipynb
+model/old_stuff
+*.pt

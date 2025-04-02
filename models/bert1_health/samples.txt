@@ -1,0 +1,30 @@
+Previous values -  1.37, 2.34, 3.16, 3.09, 3.22, 3.85, 4.41, 
+Actual value - 7.80
+
+ News:
+here is a concise prediction about the influenza infection
+situation in the united states for the upcoming period based
+on the provided text and my expertise : the united states
+can expect a potentially severe influenza season with 
+widespread transmission, elevated risk of complications
+such as acute myocardial infarction and lower respiratory
+tract infection, and a high likelihood of influenza - 
+related hospitalizations, particularly among vulnerable 
+populations such as adults with asthma and older adults. 
+
+Concatenation model prediction - 6.47, diff - -1.7e+01%
+LSTM model prediction - 3.46, diff - -5.6e+01%
+
+
+Previous values -  2.44, 3.60, 2.76, 2.54, 2.56, 2.13, 1.76, 
+Actual value - 3.24
+
+ News:
+based on the provided textual information, i predict that the upcoming
+influenza season in the united states will likely experience increased
+activity and potentially severe epidemics, possibly peaking between
+december and february, given the historical trends and the continued
+presence of influenza strains such as h1n1 and h3n2. 
+
+Concatenation model prediction - 3.67, diff - 1.3e+01%
+LSTM model prediction - 2.60, diff - -2e+01%
