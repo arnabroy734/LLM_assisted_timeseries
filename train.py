@@ -5,7 +5,7 @@ from torch.utils.data import DataLoader, Dataset
 from matplotlib import pyplot as plt
 from sklearn.metrics import mean_squared_error
 from architecture.lstm import LSTMModel
-from architecture.mixedmodel import BERTConcat
+from architecture.mixedmodel import BERTConcat, BERTAttn, BERTAttn1
 from torch import nn
 from pathlib import Path
 import json
@@ -98,7 +98,8 @@ def train_mixed_model(
     lag,
     name, 
     type,
-    modelpath
+    modelpath,
+    modelClass
 ):
     trainds, _, _ = get_dataset(name, type, lag)
     trainloader = DataLoader(trainds, batch_size=batch)
@@ -106,7 +107,9 @@ def train_mixed_model(
         model = torch.load(modelpath/'model_latest.pt')
         print('Model loaded succesfully')
     except Exception as e:
-        model = BERTConcat(in_size=lag, hid_size=1024)
+        # model = BERTConcat(in_size=1, hid_size=512)
+        model = modelClass(in_size=1, hid_size=512)
+
     try:
         optimiser = torch.load(modelpath/'optimiser.pt')
         print('Optimiser loaded succesfully')
@@ -251,11 +254,22 @@ if __name__ == "__main__":
     # train_mixed_model(0.005,loss_fn,
     #                   epochs, batch, lag, 'wheat', 'text', Path.cwd()/'models/bert1_wheat')
     # Testing
-    modelpath = Path.cwd()/'models/bert1_wheat'
+    # modelpath = Path.cwd()/'models/bert1_wheat'
+    # plot_training_curve(modelpath, 7)
+    # test_mixed_model('wheat', 'text', 7, modelpath)
+    # plot_result(modelpath)
+
+    # Experiment 3
+    # batch = 32
+    # epochs = 10
+    # lag = 7
+    # loss_fn = nn.MSELoss()
+    # train_mixed_model(0.001,loss_fn,
+    #                   epochs, batch, lag, 'wheat', 'text', Path.cwd()/'models/bert_attn_wheat', BERTAttn1)
+    # Testing
+    modelpath = Path.cwd()/'models/bert_attn_wheat'
     # plot_training_curve(modelpath, 7)
     # test_mixed_model('wheat', 'text', 7, modelpath)
     plot_result(modelpath)
-
-    # Experiment 3
     pass
    
