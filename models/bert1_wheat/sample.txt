@@ -1,16 +1,38 @@
-Previous values -  100.00, 95.50, 99.50, 100.00, 103.50, 107.25, 103.50, 
+Previous values -  106.75, 106.50, 106.50, 106.50, 106.50, 106.50, 107.25, 
 Actual value - 103.50
 
  News:
-a record - breaking wheat harvest this season has led to an oversupply
-in major agricultural markets, causing a substantial drop in prices.
-farmers are struggling to store surplus produce while exporters are
-seeking new trade agreements to offload excess wheat. market analysts
-warn that sustained low prices could impact farmers ' profitability,
-leading to potential long - term changes in wheat cultivation patterns. 
-with storage facilities reaching maximum capacity, concerns are growing 
-over potential wastage if prices remain depressed. governments are
-considering intervention to purchase excess stock and stabilize prices. 
+advancements in agricultural technology have significantly improved
+wheat yields, leading to increased supply and lower market prices.
+precision farming techniques and drought - resistant seed varieties
+are helping farmers maintain productivity despite challenging weather
+conditions. the introduction of automated systems has also reduced
+labor costs, further contributing to lower prices. market analysts
+believe that continued innovation in agricultural practices could
+stabilize wheat prices, reducing the impact of external shocks.
+meanwhile, policymakers are monitoring the situation closely to
+ensure that these technological gains benefit both producers 
+and consumers. 
 
-Concatenation model prediction - 104.07, diff - 0.55%
-LSTM model prediction - 106.08, diff - 2.5%
+Attention model prediction - 105.15, diff - 1.6%
+Concatenation model prediction - 105.64, diff - 2.1%
+LSTM model prediction - 106.09, diff - 2.5%
+
+
+Previous values -  99.75, 102.75, 102.50, 102.00, 105.25, 105.25, 106.25, 
+Actual value - 107.00
+
+ News:
+unfavorable weather conditions, including unseasonal rains and flooding,
+have severely impacted wheat yields across major producing regions.
+reports indicate that many farms have experienced losses exceeding 30 %,
+leading to reduced market supply. this shortage has triggered a surge
+in wheat prices, affecting both domestic and international markets.
+agricultural experts suggest that further climate anomalies could worsen
+the situation, leading to long - term price volatility. government agencies
+are conducting assessments to estimate the full extent of crop damage and
+considering relief measures for affected farmers. 
+
+Attention model prediction - 106.20, diff - -0.75%
+Concatenation model prediction - 105.70, diff - -1.2%
+LSTM model prediction - 105.31, diff - -1.6%

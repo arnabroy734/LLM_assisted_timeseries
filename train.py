@@ -267,9 +267,9 @@ if __name__ == "__main__":
     # train_mixed_model(0.001,loss_fn,
     #                   epochs, batch, lag, 'wheat', 'text', Path.cwd()/'models/bert_attn_wheat', BERTAttn1)
     # Testing
-    modelpath = Path.cwd()/'models/bert_attn_wheat'
+    # modelpath = Path.cwd()/'models/bert_attn_wheat'
     # plot_training_curve(modelpath, 7)
     # test_mixed_model('wheat', 'text', 7, modelpath)
-    plot_result(modelpath)
+    # plot_result(modelpath)
     pass
    

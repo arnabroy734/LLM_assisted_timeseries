@@ -3,3 +3,5 @@ exclusion
 *.ipynb
 model/old_stuff
 *.pt
+outputs
+*.safetensors

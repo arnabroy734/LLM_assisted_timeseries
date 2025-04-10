@@ -1,30 +1,31 @@
-Previous values -  1.37, 2.34, 3.16, 3.09, 3.22, 3.85, 4.41, 
-Actual value - 7.80
+Previous values -  1.28, 1.33, 1.41, 1.58, 1.71, 1.86, 2.10, 
+Actual value - 2.34
 
  News:
-here is a concise prediction about the influenza infection
-situation in the united states for the upcoming period based
-on the provided text and my expertise : the united states
-can expect a potentially severe influenza season with 
-widespread transmission, elevated risk of complications
-such as acute myocardial infarction and lower respiratory
-tract infection, and a high likelihood of influenza - 
-related hospitalizations, particularly among vulnerable 
-populations such as adults with asthma and older adults. 
+based on the provided textual information, i predict that the influenza
+infection situation in the united states for the upcoming period will
+likely be severe, with a high risk of widespread outbreaks and increased
+mortality, particularly among young children and unvaccinated individuals,
+due to the low vaccination coverage and the poor match between the vaccine
+and circulating virus strains in the previous season. 
 
-Concatenation model prediction - 6.47, diff - -1.7e+01%
-LSTM model prediction - 3.46, diff - -5.6e+01%
+Attention model prediction - 2.34, diff - -0.12%
+Concatenation model prediction - 2.32, diff - -0.9%
+LSTM model prediction - 2.26, diff - -3.5%
 
 
-Previous values -  2.44, 3.60, 2.76, 2.54, 2.56, 2.13, 1.76, 
+
+Previous values -  4.55, 6.03, 4.96, 4.69, 4.70, 4.16, 3.70, 
 Actual value - 3.24
 
  News:
-based on the provided textual information, i predict that the upcoming
-influenza season in the united states will likely experience increased
-activity and potentially severe epidemics, possibly peaking between
-december and february, given the historical trends and the continued
-presence of influenza strains such as h1n1 and h3n2. 
+based on the provided textual information, i predict that
+the upcoming influenza season in the united states will likely
+experience increased activity and potentially severe epidemics,
+possibly peaking between december and february, given the
+historical trends and the continued presence of influenza
+strains such as h1n1 and h3n2. 
 
-Concatenation model prediction - 3.67, diff - 1.3e+01%
+Attention model prediction - 3.56, diff - 9.9%
+Concatenation model prediction - 3.73, diff - 1.5e+01%
 LSTM model prediction - 2.60, diff - -2e+01%
