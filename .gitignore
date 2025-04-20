@@ -5,3 +5,5 @@ model/old_stuff
 *.pt
 outputs
 *.safetensors
+!llm_dataset_health.ipynb
+models/old_stuff

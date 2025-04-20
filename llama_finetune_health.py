@@ -85,9 +85,9 @@ def train_model(model, tokenizer, train_data, max_seq_length):
     print("\n\nStarting training process")
     trainer.train()
 
-    trained_model_path = './lora_model_health'
-    model.save_pretrained("lora_model") # Local saving
-    tokenizer.save_pretrained("lora_model")
+    trained_model_path = './models/llama_3B_10ep'
+    model.save_pretrained(trained_model_path) # Local saving
+    tokenizer.save_pretrained(trained_model_path)
     print(f"Model saved succcessfully")
 
 if __name__=="__main__":

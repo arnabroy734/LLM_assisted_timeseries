@@ -1,0 +1,13 @@
+datasets==3.2.0
+matplotlib==3.10.1
+numpy==2.2.5
+packaging==25.0
+pandas==2.2.3
+scikit_learn==1.6.1
+torch==2.2.2
+transformers==4.49.0
+trl==0.16.1
+unsloth==2025.3.19
+unsloth_zoo==2025.3.17
+vllm==0.8.4
+wandb==0.19.9
